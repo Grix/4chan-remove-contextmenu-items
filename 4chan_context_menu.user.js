@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         Remove 4chan context menu items
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/Grix
+// @updateURL    https://github.com/Grix/4chan-remove-contextmenu-items/raw/master/4chan_context_menu.user.js
 // @version      0.1
 // @description  Remove 4chan context menu items
 // @author       Grixm
