@@ -2,7 +2,7 @@
 // @name         Remove 4chan context menu items
 // @namespace    https://github.com/Grix
 // @updateURL    https://github.com/Grix/4chan-remove-contextmenu-items/raw/master/4chan_context_menu.user.js
-// @version      0.1
+// @version      0.2
 // @description  Remove 4chan context menu items
 // @author       Grixm
 // @match        https://boards.4channel.org/*/catalog
@@ -13,7 +13,7 @@
 (function() {
     'use strict';
 
-    window.onload = removeMenuItems;
+    window.onload = setTimeout(removeMenuItems, 500);
 }
 )();
 
